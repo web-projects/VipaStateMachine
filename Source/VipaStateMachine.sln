@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{CC42C996-A157-4A49-B6CD-8B8986BEADE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VipaStateMachine", "application\VipaStateMachine.csproj", "{1AE03454-02F1-4A98-9497-5111079B48F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devices", "devices", "{F2E129ED-8E5B-4FBF-B2CF-367433A9BE13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "verifone", "verifone", "{A4AA04DE-B60C-4A62-BD1E-0A93C0E911EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verifone", "devices\verifone\Verifone.csproj", "{7A796C79-F957-4751-B2B0-B67EB64BAFD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{21646623-CD01-46BA-8115-308E79D501DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xo", "xo", "{5227BB9E-0A41-4F75-9CE9-D7B8C1C3236C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "helpers", "helpers", "{0FB0E6FF-C1EF-427A-8A14-5DC9F4957F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helpers", "common\helpers\helpers.csproj", "{E874D911-6DD7-454A-A593-A4E0B654F096}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XO", "common\xo\XO.csproj", "{041D20A4-A6DC-48B3-9B7D-3D4EB65B06C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AE03454-02F1-4A98-9497-5111079B48F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE03454-02F1-4A98-9497-5111079B48F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE03454-02F1-4A98-9497-5111079B48F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE03454-02F1-4A98-9497-5111079B48F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A796C79-F957-4751-B2B0-B67EB64BAFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A796C79-F957-4751-B2B0-B67EB64BAFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A796C79-F957-4751-B2B0-B67EB64BAFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A796C79-F957-4751-B2B0-B67EB64BAFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E874D911-6DD7-454A-A593-A4E0B654F096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E874D911-6DD7-454A-A593-A4E0B654F096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E874D911-6DD7-454A-A593-A4E0B654F096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E874D911-6DD7-454A-A593-A4E0B654F096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041D20A4-A6DC-48B3-9B7D-3D4EB65B06C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041D20A4-A6DC-48B3-9B7D-3D4EB65B06C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041D20A4-A6DC-48B3-9B7D-3D4EB65B06C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041D20A4-A6DC-48B3-9B7D-3D4EB65B06C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AE03454-02F1-4A98-9497-5111079B48F0} = {CC42C996-A157-4A49-B6CD-8B8986BEADE8}
+		{A4AA04DE-B60C-4A62-BD1E-0A93C0E911EB} = {F2E129ED-8E5B-4FBF-B2CF-367433A9BE13}
+		{7A796C79-F957-4751-B2B0-B67EB64BAFD5} = {A4AA04DE-B60C-4A62-BD1E-0A93C0E911EB}
+		{5227BB9E-0A41-4F75-9CE9-D7B8C1C3236C} = {21646623-CD01-46BA-8115-308E79D501DE}
+		{0FB0E6FF-C1EF-427A-8A14-5DC9F4957F66} = {21646623-CD01-46BA-8115-308E79D501DE}
+		{E874D911-6DD7-454A-A593-A4E0B654F096} = {0FB0E6FF-C1EF-427A-8A14-5DC9F4957F66}
+		{041D20A4-A6DC-48B3-9B7D-3D4EB65B06C8} = {5227BB9E-0A41-4F75-9CE9-D7B8C1C3236C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1167FF31-9A98-408B-A83E-AB040AF5DA97}
+	EndGlobalSection
+EndGlobal
